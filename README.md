@@ -75,7 +75,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 If you have any questions, suggestions, or feedback, feel free to contact the project maintainer:
 
 - **Name:** Sankalp Meshram
-- **Email:** [sagarchauhan015@gmail.com](mailto:sagarchauhan015@gmail.com)
+- **Email:** [sankalpm06@gmail.com](mailto:sankalpm06@gmail.com)
 
 
 Enjoy using the Kanban board application to manage your tasks efficiently!
