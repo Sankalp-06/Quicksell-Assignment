@@ -1,6 +1,6 @@
-# [Kanban Board Application](https://main.d2nq9mz8ggbsl4.amplifyapp.com)
+# [Quicksell Frontend Assignment](https://main.d2nq9mz8ggbsl4.amplifyapp.com)
 
-This is a Kanban board application built using React JS that interacts with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment). The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
+This is an application built using React JS that interacts with the provided API from [https://api.quicksell.co/v1/internal/frontend-assignment](https://api.quicksell.co/v1/internal/frontend-assignment). The application allows users to dynamically adjust the Kanban board based on their grouping and sorting preferences. Users can group tickets by status, user, or priority, and sort the displayed tickets by priority or title. The application also retains the user's view state even after page reload.
 
 ## Features
 
@@ -12,7 +12,7 @@ This is a Kanban board application built using React JS that interacts with the 
 
 ## Demo
 
-You can see a live demo of the Kanban board application [here](https://main.d2nq9mz8ggbsl4.amplifyapp.com).
+You can see a live demo of the Kanban board application [here](https://quicksell-assignment-murex.vercel.app/).
 
 ## Installation
 
@@ -20,12 +20,12 @@ To run the Kanban board application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sagarchauhan015/kanban-board.git
+   git clone https://github.com/Sankalp-06/Quicksell-Assignment.git
    ```
 
 2. Navigate to the project directory:
     ```bash
-    cd kanban-board
+    cd Quicksell-Assignment
     ```
 
 3. Install the required dependencies:
@@ -78,4 +78,4 @@ If you have any questions, suggestions, or feedback, feel free to contact the pr
 - **Email:** [sankalpm06@gmail.com](mailto:sankalpm06@gmail.com)
 
 
-Enjoy using the Kanban board application to manage your tasks efficiently!
+Enjoy using this application to manage your tasks efficiently!
