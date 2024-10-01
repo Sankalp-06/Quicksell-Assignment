@@ -74,7 +74,7 @@ If you'd like to contribute to this project, please follow these guidelines:
 
 If you have any questions, suggestions, or feedback, feel free to contact the project maintainer:
 
-- **Name:** Sagar Chauhan
+- **Name:** Sankalp Meshram
 - **Email:** [sagarchauhan015@gmail.com](mailto:sagarchauhan015@gmail.com)
 
 
