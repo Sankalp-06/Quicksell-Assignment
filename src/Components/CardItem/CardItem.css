@@ -1,0 +1,125 @@
+
+ .card-container {
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px 1px #ccc;
+    background-color: var(--white1);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    overflow: hidden; /* Prevents any overflow */
+}
+
+.card-id-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow elements to wrap */
+    gap: 10px; /* Add spacing between elements when they wrap */
+}
+
+.card-id {
+    color: var(--textgrey);
+    font-size: .95rem;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+.card-profile {
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white1);
+    background-color: #b06e0c;
+    border-radius: 50%;
+    font-size: .8rem;
+    position: relative;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.card-profile-initial {
+    text-transform: uppercase;
+}
+
+.card-profile-initial-available {
+    height: 12px;
+    width: 12px;
+    background-color: var(--grey1);
+    border: 1.5px solid var(--white1);
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 70%;
+    top: 70%;
+}
+
+.card-profile-initial-available-true {
+    background-color: rgb(72, 223, 12);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--black1);
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis when content overflows */
+    max-width: 100%; /* Ensure it stays within parent width */
+}
+
+.card-tag {
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+    flex-wrap: wrap; /* Allow tags to wrap to the next line */
+    gap: 0.5rem; /* Add spacing between tag items */
+}
+
+.card-tag-icon {
+    border: 1px solid var(--grey1);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 0 0.5rem; /* Ensure padding around content */
+    flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.card-tag-icon > svg {
+    color: var(--textgrey);
+    height: 20px;
+    width: auto; /* Allow the SVG to scale responsively */
+}
+
+.card-tag-box {
+    border: 1px solid var(--grey1);
+    padding: .3rem;
+    border-radius: .3rem;
+    width: auto;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.card-tag-title {
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--textgrey);
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Show ellipsis for long text */
+}
+
+.card-tag-title::before {
+    display: inline-block;
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: var(--textgrey);
+    border-radius: 50%;
+    margin-right: .2rem;
+}
